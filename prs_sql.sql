@@ -74,14 +74,7 @@ CREATE TABLE LineItem (
 INSERT INTO User (ID, UserName, Password, FirstName, LastName, PhoneNumber, Email, IsReviewer, IsAdmin) VALUES
 	(1, 'chall326', 'June8th', 'Christian', 'Hall', '502-232-5434', 'christian.hall@co.com', 0, 1),
     (2, 'ahall922', 'Agi1001', 'Allison', 'Hall', '502-232-5435', 'allison.hall@co.com', 1, 0),
-    (3, 'ccary925', 'BCNov11', 'Colton', 'Cary', '859-858-2872', 'colton.cary@co.com', 1, 0),
-    (4, 'sgbloyd111', 'england20', 'Sarah', 'Bloyd', '502-123-4567', 'sarahg.bloyd@co.com', 0, 0),
-    (5, 'jmoon222', 'ncraleigh', 'Joshua', 'Moon', '859-553-2015', 'joshua.moon@co.com', 0, 0),
-    (6, 'acoile915', 'may18th', 'Abigail', 'Coile', '859-553-1318', 'abigail.coile@co.com', 0, 0),
-    (7, 'acoile131', 'av0518', 'Alex', 'Coile', '502-999-9999', 'alex.coile@co.com', 0, 0),
-    (8, 'nhall1202', 'photo211', 'Noah', 'Hall', '859-111-1111', 'noah.hall@co.com', 0, 0),
-    (9, 'mholley123', 'sarahf1', 'Micah', 'Holley', '513-555-7181', 'micah.holley@co.com', 0, 0),
-    (10, 'cpeters333', 'asbury22', 'Carley', 'Peters', '513-987-6543', 'carley.peters@co.com', 0, 0);
+    (3, 'ccary925', 'BCNov11', 'Colton', 'Cary', '859-858-2872', 'colton.cary@co.com', 0, 0);
     
 INSERT INTO Vendor (ID, Code, Name, Address, City, State, Zip, PhoneNumber, Email) VALUES
 	(1, 'BSTBY-42', 'Best Buy', '650 Eastgate South Dr', 'Cincinnati', 'OH', '45245', '513-753-7062', 'shop-42@bestybuy.com'),
